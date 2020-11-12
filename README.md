@@ -1,4 +1,4 @@
-# EjercicioTenico
+# EjercicioTecnico
 
 ## Falto mensualidad ?
 Mire varias formas de hacerlo automaticamente como CronTriggre o Timer/TimerTask pero al nunca usarlas no temrine de comprender 100% su implementacion.
