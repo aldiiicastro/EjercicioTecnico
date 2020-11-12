@@ -1,5 +1,6 @@
 package sisFacturacion;
 
 public interface ILlamadasNoLocales {
-	public double costo(Object noLocales);
+	public String nombre();
+	public double costo();
 }

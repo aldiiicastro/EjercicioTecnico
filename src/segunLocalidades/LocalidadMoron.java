@@ -1,13 +1,15 @@
 package segunLocalidades;
 
-import sisFacturacion.ILlamadasNoLocales;
-
-public class LocalidadMoron implements ILlamadasNoLocales{
+public class LocalidadMoron implements ILocalidad{
 	@Override
-	public double costo(Object localidad) {
-		if (localidad == Localidades.MORON) {
-			return 1.5;
-		}
-		else { return 0; } 
+	public String nombre() {
+		// TODO Auto-generated method stub
+		return "Moron";
+	}
+
+	@Override
+	public double costo() {
+		// TODO Auto-generated method stub
+		return 1.5;
 	}
 }

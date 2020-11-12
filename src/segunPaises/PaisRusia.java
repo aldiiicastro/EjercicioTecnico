@@ -1,13 +1,13 @@
 package segunPaises;
 
-import sisFacturacion.ILlamadasNoLocales;
-
-public class PaisRusia implements ILlamadasNoLocales{
+public class PaisRusia implements IPais{
 	@Override
-	public double costo(Object pais) {
-		if (pais == Paises.RUSIA) {
-			return 29.3;
-		}
-		else { return 0; } 
+	public double costo() {
+		return 29.3;
+	}
+
+	@Override
+	public String nombre() {
+		return "Rusia";
 	}
 }

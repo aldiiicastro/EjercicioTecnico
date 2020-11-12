@@ -1,15 +1,17 @@
 package segunPaises;
 
-import sisFacturacion.ILlamadasNoLocales;
-
-public class PaisEspaña implements ILlamadasNoLocales{
+public class PaisEspaña implements IPais {
 
 	@Override
-	public double costo(Object pais) {
-		if (pais == Paises.ESPAÑA) {
-			return 15.0;
-		}
-		else { return 0; } 
+	public String nombre() {
+		// TODO Auto-generated method stub
+		return "España";
 	}
-	
+
+	@Override
+	public double costo() {
+		// TODO Auto-generated method stub
+		return 15.0;
+	}
+
 }
