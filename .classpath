@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/aldana/Documentos/EjercicioTecnico/jar_files/c3p0-0.9.1.1.jar">
+	<classpathentry kind="lib" path="/home/aldana/Documentos/EjercicioTenico/jar_files/c3p0-0.9.1.1.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/aldana/Documentos/EjercicioTecnico/jar_files/quartz-2.2.3.jar">
+	<classpathentry kind="lib" path="/home/aldana/Documentos/EjercicioTenico/jar_files/quartz-2.2.3.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/aldana/Documentos/EjercicioTecnico/jar_files/slf4j-api-1.7.7.jar">
+	<classpathentry kind="lib" path="/home/aldana/Documentos/EjercicioTenico/jar_files/slf4j-api-1.7.7.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
